@@ -1,0 +1,66 @@
+.lista-container {
+  min-height: 100vh;
+  width: 94%;
+  padding: 40px;
+  background: linear-gradient(135deg, #050517, #0a012c);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-shadow: 0 0 10px #00eaff, 0 0 20px #00eaff;
+}
+
+.loading {
+  font-size: 1.3rem;
+  margin-top: 20px;
+  color: #00eaff;
+  text-shadow: 0 0 10px #00eaff;
+}
+
+.lista-tabela {
+  width: 80%;
+  background: rgba(15, 4, 40, 0.55);
+  padding: 25px;
+  border-radius: 15px;
+  border: 2px solid rgba(0, 255, 255, 0.25);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  font-size: 1.2rem;
+  padding: 12px;
+  background: rgba(0, 255, 255, 0.15);
+  border-bottom: 2px solid #00eaff;
+  text-shadow: 0 0 7px #00eaff;
+}
+
+tbody tr {
+  transition: 0.3s;
+}
+
+tbody tr:hover {
+  background: rgba(0, 255, 255, 0.10);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.15);
+}
+
+tbody td {
+  padding: 12px;
+  text-align: center;
+}
+
+.lista-container button,
+.lista-container a {
+  margin-top: 25px;
+}

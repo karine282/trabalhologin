@@ -1,0 +1,111 @@
+.loginAdm-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #050517, #0a012c);
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+.loginAdm-esquerdo {
+  width: 45%;
+  background: linear-gradient(180deg, #11062f, #1a0a47);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid rgba(0, 255, 255, 0.15);
+  box-shadow: 4px 0 20px rgba(0, 255, 255, 0.1);
+
+  h1 {
+    font-size: 2.6rem;
+    text-shadow: 0 0 10px #00eaff, 0 0 20px #00eaff;
+  }
+}
+
+.loginAdm-direito {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginAdm-direito h1 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  text-shadow: 0 0 10px #b300ff, 0 0 20px #b300ff;
+}
+
+.loginAdm-form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(15, 4, 40, 0.55);
+  padding: 35px;
+  border-radius: 15px;
+  border: 2px solid rgba(0, 255, 255, 0.25);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+.loginAdm-form label {
+  width: 70%;
+  text-align: left;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.loginAdm-form input {
+  width: 70%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 2px solid #00eaff60;
+  background: #0d0d1f;
+  color: #fff;
+  font-size: 1rem;
+  transition: 0.3s;
+  outline: none;
+
+  &:focus {
+    border-color: #00eaff;
+    box-shadow: 0 0 12px #00eaff;
+  }
+}
+
+.loginAdm-form button {
+  width: 70%;
+  padding: 12px;
+  background: linear-gradient(90deg, #7a00c8, #b300ff);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  transition: 0.3s;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #b300ff;
+  }
+}
+
+.loginAdm-registro {
+  margin-top: 18px;
+  font-size: 0.9rem;
+
+  a {
+    color: #00eaff;
+    font-weight: 600;
+    margin-left: 5px;
+    text-shadow: 0 0 5px #00eaff;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
